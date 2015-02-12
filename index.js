@@ -13,15 +13,14 @@ var isNothing = x => x === null || x === undefined;
 
 var maybe = f => x => isNothing(f(x)) ? x : f(x); 
 
-var foreignKeyObj = (key, keyed) => obj => {
-  return converge(
+var foreignKeyObj = (key, keyed) => 
+  converge(
     assoc(key),
       compose(
         maybe(propOf(keyed)),
         get(key)),
       identity
-    )(obj);
-};
+    );
 
 var foreignKey = curry((key, keyed, array) => 
   map(
