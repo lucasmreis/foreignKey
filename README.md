@@ -31,14 +31,10 @@ foreignKey('person', keyed, collection);
 // =>
 //
 // [
-//  {person: {name: 'The Girl'}},
-//  {person: {name: 'The Guy'}},
-//  {person: 'c'},
-//  {person: ''},
-//  {person: null},
-//  {person: undefined},
-//  {}
-// ];
+//   {person: {name: 'The Girl'}, pet: 'dog'},
+//   {person: {name: 'The Girl'}, pet: 'cat'},
+//   {person: {name: 'The Guy'}, pet: 'dog'}
+// ]
 ```
 
 Which is the joined collection.
