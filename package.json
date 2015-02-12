@@ -1,0 +1,29 @@
+{
+  "name": "foreignKey",
+  "version": "1.0.0",
+  "description": "Experiments in data oriented design: function that joins a keyed collection to an array with a defined foreign key.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasmreis/foreignKey.git"
+  },
+  "keywords": [
+    "data-oriented",
+    "join",
+    "key",
+    "list",
+    "collection"
+  ],
+  "author": "Lucas Reis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasmreis/foreignKey/issues"
+  },
+  "homepage": "https://github.com/lucasmreis/foreignKey",
+  "dependencies": {
+    "ramda": "^0.9.1"
+  }
+}
