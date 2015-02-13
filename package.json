@@ -25,5 +25,8 @@
   "homepage": "https://github.com/lucasmreis/foreignKey",
   "dependencies": {
     "ramda": "^0.9.1"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0"
   }
 }
