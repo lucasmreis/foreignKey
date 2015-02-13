@@ -4,7 +4,7 @@ var expect = chai.expect;
 var fk = require('../');
 var rightJoin = fk.rightJoin;
 
-describe('RightJoin', function() {
+describe('rightJoin', function() {
   it('should right join properly', function() {
     var keyed = {
       a: {name: 'The Girl'}, 
@@ -51,7 +51,7 @@ describe('RightJoin', function() {
      {person: undefined},
      {person: undefined}
     ];
-    
+
     expect(rightJoin('person')(keyed)(collection)).to.deep.equal(expected);
   });
 });
